@@ -40,3 +40,13 @@ PORT=8000
 ```bash
 docker-compose up --build
 ```
+### 🧾 Swagger-документация
+Доступна по адресу:
+👉 http://localhost:8000/schema/swagger
+### 📚 Описание эндпоинтов
+Метод	URL	Описание
+GET	/api/users	Получить список пользователей
+GET	/api/users/{id}	Получить пользователя по ID
+POST	/api/users	Создать нового пользователя
+PUT	/api/users/{id}	Обновить пользователя
+DELETE	/api/users/{id}	Удалить пользователя
