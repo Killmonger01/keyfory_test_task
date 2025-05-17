@@ -20,8 +20,8 @@ RESTful API для управления пользователями, созда
 ### 1. Клонирование репозитория
 
 ```bash
-git clone https://github.com/your-username/user-management-api.git
-cd user-management-api
+git clone git@github.com:Killmonger01/keyfory_test_task.git
+cd keyfory_test_task
 ```
 ### 2. Настройка переменных окружения
 Создайте файл .env в корне проекта со следующим содержимым:
