@@ -40,6 +40,21 @@ PORT=8000
 ```bash
 docker-compose up --build
 ```
+---
+
+> 💡 **Примечание для разработчиков**
+
+Все зависимости автоматически устанавливаются внутри Docker-контейнера при сборке, поэтому локальная установка не требуется.
+
+Однако, если вы хотите посмотреть код и иметь подсветку типов то 
+
+можно создать виртуальное окружение вручную и установить зависимости из `requirements.txt`:
+
+```bash
+python -m venv venv
+source venv/bin/activate  # Windows: venv\Scripts\activate
+pip install -r requirements.txt
+```
 ### 🧾 Swagger-документация
 Доступна по адресу:
 👉 http://localhost:8000/schema/swagger
